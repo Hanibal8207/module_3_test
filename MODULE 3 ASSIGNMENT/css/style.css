@@ -1,0 +1,11 @@
+<style>
+	body{
+		backgroud-color: red;
+		text-size: 50px;
+		font-family: oxygen;
+	}
+	#header1 {
+		box-sizing: border-box;
+		margin: 10px 15px 10px 0px;
+	}
+</style>

@@ -1,0 +1,169 @@
+body {
+    background-color: #61122f;
+    font-size:16px;
+    color:#fff;
+    font-family: 'Oxygen', sans-serif;
+    
+}
+#header-nav {
+    background-color:#feb319;
+    border-radius:5;
+    border:0;
+}
+#logo-img {
+    background:url("../images/restaurant_img.jpg") no-repeat;
+    width: 150px;
+    height:150px;
+    margin:10px 15px 10px 5px;
+}
+.navbar-brand {
+    padding-top:10px;
+}
+.navbar-brand h1 { 
+    font-family: 'Lora', serif;
+    color:green;
+    font-size:1.5em;
+    text-transform:uppercase;
+    text-shadow:1.5px 1.5px 1.5px #222;
+    margin-top:5px;
+    margin-bottom:5px;
+    line-height:0.75;
+}
+.navbar-brand  a:hover, .navbar-brand a:focus {
+    text-decoration:none;
+}
+.navbar-brand p {
+    color:#000;
+    text-transform:uppercase;
+    font-size:0.7em;
+    margin-top:25px;
+}
+.navbar-brand p span {
+    vertical-align:middle;
+}
+#nav-list {
+    margin-top:10px;
+}
+#nav-list a {
+    color:#951c49;
+    text-align:center;
+}
+#nav-list a:hover  {
+    background:#e7e7e7;
+}
+#nav-list a span {
+    font-size:1.8em;
+}
+#phone {
+    margin-top:5px;
+}
+#phone a {
+    text-align:right;
+}
+#phone div {
+    color:#557c3e;
+    text-align:right;
+    padding-right:15px;
+}
+
+/*navbar toggle button*/
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border:1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+    clear:both;
+}
+.contact-no {
+    background-color: chocolate;
+    margin-left:100px;
+    margin-right:100px;
+
+}
+.contact-no  span {
+    background-color: chocolate;
+    text-align:left;
+}
+.contact-no a{
+    text-align:center;
+
+}
+/* end header*/
+.container .jumbotrone {
+    margin:5px 5px 5px 5px;
+    box-shadow:0 0 50px #3f0c1f;
+    border:2px solid #3f0c1f;
+}
+
+.row section{
+    border:2px solid #3f0c1f;
+    width:100%;
+    text-align:center;
+    height:100px;
+    margin-top:20px;
+    float:left;
+}
+
+/*----this is for large size screens----*/
+@media (min-width:1200px){
+    .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+        border:1px solid #3f0c1f;
+        float:left;
+     }
+.container-fluid .jumbotrone {
+        background: url("../images/restaurant_1200.jpg") no-repeat;
+        height:675px;
+    }
+     #image1 {
+         position:relative;
+         left:400px;
+     }
+    
+}
+
+/*---this is for mediusm size devices ----*/
+@media(min-width:992px) and (max-width:1199px) {
+    #logo-img {
+        background:url("../images/restaurant_img.jpg") no-repeat;
+        width: 100px;
+        height:100px;
+        margin:5px 5px 5px 0;
+        border-radius:5px;
+    }
+    .container-fluid .jumbotrone {
+        background: url("../images/restaurant_900.jpg") no-repeat;
+        height:558px;
+    }
+    .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+        border:1px solid #3f0c1f;
+        float:left;
+    }
+}
+/*----this is for small screen size devices----*/ 
+@media(min-width:768px) and (max-width:991px) {
+    .container-fluid .jumbotrone {
+        background: url("../images/restaurant_700.jpg") no-repeat;
+    } 
+    .col-{
+
+    }  
+}
+
+/*---this is for extra small screen size devices---- */
+@media (max-width:767px) {
+   .navbar-brand{
+        padding-top:10px;
+        height:40px;
+    }
+    .navbar-brand h1 {
+        font-size:5vw;
+    }
+    .navbar-brand p {
+        font-size:0.6em;
+        margin-top:12px;
+    }
+    .navbar-brand p img {
+        height:20px;s
+    }
+    .container-fluid .jumbotrone {
+    }    
+}
